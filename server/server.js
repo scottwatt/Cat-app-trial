@@ -39,6 +39,6 @@ app.use("/api/orders", orderRoutes);
 app.use("/api/checkout", stripeRoutes);
 
 // Create a port number to listen
-app.listen(process.env.PORT || 3000, () => {
+app.listen(process.env.PORT || 3001, () => {
   console.log(`Backend server is running on port ${process.env.PORT}`);
 });
