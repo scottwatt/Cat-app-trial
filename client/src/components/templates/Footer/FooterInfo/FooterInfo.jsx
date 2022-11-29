@@ -11,10 +11,9 @@ const FooterInfo = () => {
       <Container>
         <Logo src="/images/cat_logo.webp" alt="Company Logo" />
         <Description>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit,
-          dolorem provident, quisquam aspernatur cumque numquam odio cupiditate
-          consectetur facere fugit tenetur obcaecati magnam repellat iste
-          pariatur aut quos ipsum sunt.
+          Adorable cartoon picutre of A Well Known Japanese Cat, also know as the Scottish Fold species. 
+          The Scottish Fold cat is known to They sit like humans, Not to mention that the Scottish folds are never bred together, 
+          Which is lead to believe that All Scottish Fold's are the only folded-ear cat in the world.
         </Description>
         <Icons>
           <FaFacebookSquare style={{ marginRight: "0.5rem" }} />
