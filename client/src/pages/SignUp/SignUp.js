@@ -144,7 +144,7 @@ const SignUp = () => {
             </Formik>
           </LeftContainer>
           <RightContainer>
-            <Title>Have The Best Shopping Experience</Title>
+            <Title>Have The Best Adopting Experience</Title>
           </RightContainer>
         </Wrapper>
       </Container>

@@ -40,7 +40,7 @@ const SignIn = () => {
     <Container>
       <Wrapper>
         <RightContainer>
-          <Title>Enjoy The Best Shopping Experience</Title>
+          <Title>Enjoy The Best Adopting Experience</Title>
         </RightContainer>
         <LeftContainer>
           <TopContent>
