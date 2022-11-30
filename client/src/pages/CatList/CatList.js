@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useLocation } from "react-router-dom";
+import { useLocation, useParams } from "react-router-dom";
 import { Navbar, Footer } from "../../components/templates";
 import { Announcements } from "../../components/elements";
 import {
@@ -22,9 +22,11 @@ import {
 
 const CatList = () => {
   const location = useLocation();
-  const category = location.pathname.split("/")[2];
+  const { category } = useParams("category") || "all";
   const [filters, setFilters] = useState({});
   const [sort, setSort] = useState("Newest");
+
+  console.log("category", category);
 
   const handleFilters = (e) => {
     const value = e.target.value;
@@ -36,8 +38,38 @@ const CatList = () => {
 
   const colorList = ["Grey", "Black", "Brown", "White"];
 
- 
+  const categoryMap = [
+    {
+      category: "persion",
+      tagname: Persian,
+    },
+    {
+      category: "britishShorthair",
+      tagname: BritishShorthair,
+    },
+    {
+      category: "LaPerm",
+      tagname: LaPerm,
+    },
+    {
+      category: "maineCoon",
+      tagname: MaineCoon,
+    },
+    {
+      category: "americanBobtail",
+      tagname: AmericanBobtail,
+    },
+    {
+      category: "sphynx",
+      tagname: Sphynx,
+    },
+  ];
 
+  const renderSelectedCatList = () => {
+    const TagName =
+      categoryMap.find((breed) => breed.category === category).tagname || Sphynx;
+    return <>{<TagName category={category} filters={filters} sort={sort} />}</>;
+  };
 
   return (
     <React.Fragment>
@@ -64,19 +96,7 @@ const CatList = () => {
             </Select>
           </Filter>
         </FilterContainer>
-        {category === "persian" ? (
-          <Persian category={category} filters={filters} sort={sort} />
-        ) : category === "britishShorthair" ? (
-          <BritishShorthair category={category} filters={filters} sort={sort} />
-        ) : category === "LaPerm" ? (
-          <LaPerm category={category} filters={filters} sort={sort} />
-        ) : category === "maineCoon" ? (
-          <MaineCoon category={category} filters={filters} sort={sort} />
-        ) : category === "americanBobtail" ? (
-          <AmericanBobtail category={category} filters={filters} sort={sort} />
-        ) : (
-          <Sphynx category={category} filters={filters} sort={sort} />
-        )}
+        {renderSelectedCatList()}
         <Footer />
       </Container>
     </React.Fragment>
