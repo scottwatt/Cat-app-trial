@@ -1,3 +1,19 @@
+# Cats for Everyone!
+
+## Find the newest addition to your family!
+
+Everyone loves pets and looking for one can be daunting. Our app is specifically focused on cat adoption for cat lovers! Our app allows users to view all the cats that are up for adoption and create a profile page where they could favorite their potential pet choice that they could come back to later. 
+
+## User Story
+
+I want to view different cats on the website with their names and pictures. So that I can easily see which ones are available for adoption. 
+
+As a user, I want to be able to have my own profile page. In the profile page, I should be able to access all the animals that I have favorited for potential adoption. 
+
+## Technologies Used
+
+Node.js, React, Express.js, MongoDB, Redux, Bootstrap, JWT, Apollo, deployed on Heroku
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +84,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Contributors
+
+Scott Wattenbarger, Dennis Mateo, Kristina Litunovskaia, Kaihuan Huang, Maryam Muska, Kevin Rivera
+
+## Application Links
