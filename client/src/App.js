@@ -16,7 +16,6 @@ import {
   CatList,
   SingleCat,
   ThankYou,
-  Cats,
 } from "./pages";
 
 const App = () => {
