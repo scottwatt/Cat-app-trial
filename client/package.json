@@ -1,13 +1,14 @@
 {
   "name": "client",
   "version": "0.1.0",
+  "proxy": "http://localhost:3001",
   "private": true,
   "dependencies": {
     "@babel/core": "^7.17.5",
-    "@reduxjs/toolkit": "^1.8.0",
+    "@reduxjs/toolkit": "^1.9.1",
     "@testing-library/dom": "^8.11.3",
     "@testing-library/jest-dom": "^5.16.1",
-    "@testing-library/react": "^12.1.2",
+    "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "axios": "^0.26.1",
     "formik": "^2.2.9",

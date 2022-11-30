@@ -47,7 +47,7 @@ import {
   CheckoutBtn,
 } from "./CartContainer.styles";
 
-const KEY = process.env.REACT_APP_STRIPE_KEY;
+const KEY = "pk_test_51KavoeKKJeUz3BI89Zw5LUtUvbhl5w66pnxA9EOKBOQXLUPJpPZpyKtuN4fen1lLuwAgR645G7wEuCFAKO7hMehw00rrE9PtZt";
 
 const CartContainer = () => {
   const cart = useSelector((state) => state.cart);

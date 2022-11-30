@@ -16,7 +16,7 @@ import {
   CatList,
   SingleCat,
   ThankYou,
-  // Cats,
+  Cats,
 } from "./pages";
 
 const App = () => {
@@ -32,7 +32,6 @@ const App = () => {
           <Route path="/cats/:category" element={<CatList />} />
           <Route path="/cat/:id" element={<SingleCat />} />
           <Route path="/cart" element={<Cart />} />
-          {/* <Route path="/cats" element={<Cats />} /> */}
           <Route path="/thankyou" element={<ThankYou />} />
           <Route
             path="/login"

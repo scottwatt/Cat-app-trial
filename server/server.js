@@ -12,6 +12,8 @@ const stripeRoutes = require("./routes/stripe");
 
 const app = express();
 
+const PORT = process.env.PORT || 3001
+
 // .env file configuration
 dotenv.config();
 
@@ -39,6 +41,6 @@ app.use("/api/orders", orderRoutes);
 app.use("/api/checkout", stripeRoutes);
 
 // Create a port number to listen
-app.listen(process.env.PORT || 3001, () => {
-  console.log(`Backend server is running on port ${process.env.PORT}`);
+app.listen(PORT, () => {
+  console.log(`Backend server is running on port ${PORT}`);
 });
