@@ -13,6 +13,7 @@ const CatSchema = new mongoose.Schema(
     inStock: { type: Boolean, default: true },
     reviews: { type: Number, required: true },
     ratings: { type: Number, required: true },
+    id: {type: Number, required: true}
   },
   { timestamps: true }
 );
