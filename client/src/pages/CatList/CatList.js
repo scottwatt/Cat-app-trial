@@ -83,7 +83,7 @@ const CatList = () => {
             <Select name="color" onChange={handleFilters} defaultValue="Color">
               <Options disabled>Color</Options>
               {colorList.map((item) => {
-                return <Options key={item}>{item}</Options>;
+                return <Options key={item.id}>{item}</Options>;
               })}
             </Select>
           </Filter>

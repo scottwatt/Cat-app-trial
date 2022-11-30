@@ -8,4 +8,6 @@ export const Heading = styled.h1`
 
 export const Description = styled.div`
     margin: 1rem 4rem;
+    text-align: center;   
+
 `;

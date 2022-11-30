@@ -17,6 +17,21 @@ const AboutCompany = () => {
         cared for by families. Here, we provide the platform for all cats to be
         seen in chance for second hope.
       </Description>
+      <Description>
+        Made by
+        <br />
+        Scott Wattenbarger
+        <br />
+        Dennis Mateo
+        <br />
+        Kaihuan Huang
+        <br />
+        Kristina Litunovskaia
+        <br />
+        Maryam Muska
+        <br />
+        Kevin Rivera
+      </Description>
     </React.Fragment>
   );
 };
