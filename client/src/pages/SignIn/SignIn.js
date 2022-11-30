@@ -82,6 +82,11 @@ const SignIn = () => {
               {/* {isSubmitting ? "Sign In" : "Signing..."} */}
               Sign In
             </Button>
+            <Link href="/">
+              <Button>
+                Go Back
+              </Button>
+            </Link>
           </FormContent>
         </LeftContainer>
       </Wrapper>
