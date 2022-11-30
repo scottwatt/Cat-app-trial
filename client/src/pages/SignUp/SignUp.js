@@ -138,6 +138,11 @@ const SignUp = () => {
                     <Button type="submit" disabled={isSubmitting}>
                       {isSubmitting ? "Creating..." : "Create an Account"}
                     </Button>
+                    <Link href="/">
+                      <Button type="button">
+                        Go Back
+                      </Button>
+                    </Link>
                   </FormContent>
                 </Form>
               )}
