@@ -14,6 +14,21 @@ const AboutCompany = () => {
           there are a lot of cats waiting to be loved and cared for by families. Here, we provide the
           platform for all cats to be seen in chance for second hope.
         </p>
+        
+        Made by 
+        <br />
+        Scott Wattenbarger
+        <br />
+        Dennis Mateo
+        <br />
+        Kaihuan Huang
+        <br />
+        Kristina Litunovskaia
+        <br />
+        Maryam Muska
+        <br />
+        Kevin Rivera
+        
       </Description>
     </React.Fragment>
   );
