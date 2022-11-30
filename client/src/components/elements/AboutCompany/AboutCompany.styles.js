@@ -6,6 +6,6 @@ export const Heading = styled.h1`
     margin: 1rem;
 `;
 
-export const Description = styled.p`
+export const Description = styled.div`
     margin: 1rem 4rem;
 `;
