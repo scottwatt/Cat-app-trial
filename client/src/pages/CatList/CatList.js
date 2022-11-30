@@ -67,7 +67,7 @@ const CatList = () => {
 
   const renderSelectedCatList = () => {
     const TagName =
-      categoryMap.find((breed) => breed.category === category) || Sphynx;
+      categoryMap.find((breed) => breed.category === category).tagname || Sphynx;
     return <>{<TagName category={category} filters={filters} sort={sort} />}</>;
   };
 
